@@ -9,6 +9,7 @@ function numberFirst(array) {
   while (j < length){
     while (array[i] !== 0 && i < length) {
     	i++;
+      j++;
     }
     while (array[j] === 0 && j < length) {
       j++;
