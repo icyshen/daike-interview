@@ -8,7 +8,7 @@ function productArray(array) {
   var rearProduct = [1];
   var output = [];
   var product = 1;
-  if (l < 2) {
+  if (length < 2) {
     return false;
   }
   for (j = length - 1; j > 0; j--) {
